@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820" fill="none" aria-hidden="true">
+  <defs>
+    <linearGradient id="deco-stud" x1="980" y1="0" x2="980" y2="820" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#e8b923" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#e8b923" stop-opacity="0.03"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Subtle wall framing (studs + plates) — reads as “construction” -->
+  <g opacity="0.9">
+    <rect x="980" y="0" width="420" height="820" fill="url(#deco-stud)"/>
+    <g stroke="rgba(232,185,35,0.12)" stroke-width="2" stroke-linecap="square">
+      <line x1="1016" y1="120" x2="1016" y2="780"/>
+      <line x1="1068" y1="120" x2="1068" y2="780"/>
+      <line x1="1120" y1="120" x2="1120" y2="780"/>
+      <line x1="1172" y1="120" x2="1172" y2="780"/>
+      <line x1="1224" y1="120" x2="1224" y2="780"/>
+      <line x1="1276" y1="120" x2="1276" y2="780"/>
+      <line x1="1328" y1="120" x2="1328" y2="780"/>
+      <line x1="1000" y1="120" x2="1360" y2="120"/>
+      <line x1="1000" y1="780" x2="1360" y2="780"/>
+    </g>
+  </g>
+
+  <!-- Floor / deck board perspective (subtle, lower right) -->
+  <g opacity="0.22" stroke="rgba(232,185,35,0.2)" stroke-width="2" stroke-linecap="round">
+    <line x1="1050" y1="640" x2="1380" y2="560"/>
+    <line x1="1060" y1="670" x2="1390" y2="590"/>
+    <line x1="1070" y1="700" x2="1400" y2="620"/>
+    <line x1="1080" y1="730" x2="1410" y2="650"/>
+    <line x1="1090" y1="760" x2="1420" y2="680"/>
+    <line x1="1100" y1="790" x2="1430" y2="710"/>
+  </g>
+</svg>
